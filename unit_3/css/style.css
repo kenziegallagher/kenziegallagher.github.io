@@ -1,0 +1,42 @@
+h1 {
+	background: #white;
+	color
+	font-size: 21px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+p, body {
+	background: #white;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+#slogan{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+}
+
+.service {
+	background: #E0C5AB;
+	color: #ffffff;
+	font-size
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	text-align: left;
+	text-align: center;
+}
