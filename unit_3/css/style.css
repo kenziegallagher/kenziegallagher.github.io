@@ -1,9 +1,18 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
 h1 {
-	background: #white;
-	color
 	font-size: 21px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -31,12 +40,24 @@ p, body {
 	text-align: center;
 }
 
+#service {
+	position: relative;
+	top:-50px;
+}
+
 .service {
+	width:33.3%;
+	float: left;
+	padding: 20px;
+}
+
+.service .inner {
 	background: #E0C5AB;
 	color: #ffffff;
-	font-size
+	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	text-align: left;
 	text-align: center;
+	padding: 30px;
 }
