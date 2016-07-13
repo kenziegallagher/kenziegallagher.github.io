@@ -50,9 +50,10 @@ p, body {
 }
 
 .service {
-	width:33.3%;
+	width:31.33%;
 	float: left;
-	padding: 20px;
+	padding:;
+	margin:1%;
 }
 
 .service .inner {
@@ -73,12 +74,13 @@ p, body {
 }
 
 .portfolio {
-	width:50%;
+	width:48%;
 	float: left;
 	padding: 20px;
+	margin:1%;
 }
 
-.portfolio .four {
+.four {
 	background: #E0C5AB;
 	color: #ffffff;
 	font-size: 18px;
@@ -87,4 +89,11 @@ p, body {
 	text-align: left;
 	text-align: center;
 	padding: 30px;
+}
+.clearfix:after {
+	display:block;
+	visibility:hidden;
+	height:0;
+	content:" ";
+	clear:both;
 }
