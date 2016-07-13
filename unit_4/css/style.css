@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,200,500|Merriweather:400,300);
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Raleway', serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p, body {
+	background: #white;
+	font-size: 15px;
+	font-family: 'Merriweather', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+#slogan{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+}
+
+#service {
+	position: relative;
+	top:-50px;
+}
+
+.service {
+	width:33.3%;
+	float: left;
+	padding: 20px;
+}
+
+.service .inner {
+	background: #E0C5AB;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	text-align: left;
+	text-align: center;
+	padding: 30px;
+}
+
+
+
+#portfolio {
+	position: relative;
+}
+
+.portfolio {
+	width:50%;
+	float: left;
+	padding: 20px;
+}
+
+.portfolio .four {
+	background: #E0C5AB;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	text-align: left;
+	text-align: center;
+	padding: 30px;
+}
