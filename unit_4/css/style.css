@@ -1,13 +1,42 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,200,500|Merriweather:400,300);
 
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
-
+section#splash {
+	background: url(../images/portfolio.png);
+	padding: 10em 0;
+	height: 70vh;
+	background-size: cover;
+}
+section#about {
+	background:#ccc;
+	margin-top: 5em;
+	padding: 0 0 5em;
+}
+section#about img {
+	margin:auto;
+	transform:translateY(-50%);
+	width: 10em;
+}section#about div {
+	max-width: 600px;
+	margin:auto;
+}
+header img { width:20em; margin:auto; }
 img {
-	width: 100%;
 	display: block;
 }
 
@@ -26,8 +55,7 @@ h2 {
 	text-transform: uppercase;
 	text-align: center;
 }
-
-p, body {
+body {
 	background: #white;
 	font-size: 15px;
 	font-family: 'Merriweather', sans-serif;
@@ -45,8 +73,9 @@ p, body {
 }
 
 #service {
-	position: relative;
-	top:-50px;
+	/* position: relative; */
+	/* top:-50px; */
+	transform: translateY(-50%);
 }
 
 .service {
@@ -55,8 +84,7 @@ p, body {
 	padding:;
 	margin:1%;
 }
-
-.service .inner {
+.inner {
 	background: #E0C5AB;
 	color: #ffffff;
 	font-size: 18px;
@@ -65,12 +93,14 @@ p, body {
 	text-align: left;
 	text-align: center;
 	padding: 30px;
+	text-decoration:none;
 }
 
 
 
 #portfolio {
-	position: relative;
+	/* position: relative; */
+	margin-bottom: 10em;
 }
 
 .portfolio {
@@ -78,6 +108,9 @@ p, body {
 	float: left;
 	padding: 20px;
 	margin:1%;
+}
+.portfolio img {
+	width:100%;
 }
 
 .four {
@@ -89,6 +122,16 @@ p, body {
 	text-align: left;
 	text-align: center;
 	padding: 30px;
+}
+.cta {
+	background:#fff;
+	border: .2em solid #e0c5ab;
+	color:inherit;
+	display:inline-block;
+	font-size:2em;
+	margin-top:1em;
+	padding: 1em 2em;
+	text-decoration: none;
 }
 .clearfix:after {
 	display:block;
