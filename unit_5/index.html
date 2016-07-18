@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.carousel.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
 		<title>Blondtonomy</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
 
 	</head>
 
@@ -11,8 +16,13 @@
 		<h1>Blondtonomy</h1>
 		
 		<p id="slogan">Blondtonomy, because I said so.</p>
-		
-		<img src="images/portfolio.png" alt="View My Portfolio" title="Blondtonomy View My Portfolio">
+		<div class="owl-carousel">
+			<img src="images/portfolio.png" alt="View My Portfolio" title="Blondtonomy View My Portfolio">
+			<img src="images/portfolio.png" alt="View My Portfolio" title="Blondtonomy View My Portfolio">
+			<img src="images/portfolio.png" alt="View My Portfolio" title="Blondtonomy View My Portfolio">
+			<img src="images/portfolio.png" alt="View My Portfolio" title="Blondtonomy View My Portfolio">
+			<img src="images/portfolio.png" alt="View My Portfolio" title="Blondtonomy View My Portfolio">
+		</div>
 
 		<section id="service">
 			<div class="service">
@@ -69,11 +79,22 @@
 
 		<p>When I created this website, the first word that came to mind was "autonomy". I've always been an independent, 'I'm going to do it myself' kind of girl ever since I can remember. When I was younger, I used to untie my shoelaces after my mom tied them because I wanted to do it myself and I would even unbuckle and rebuckle the seatbelt if anyone else did it for me. #stubbornchild. I'm rather impatient and am usually doing a million things at once but, at the end of the day, I get it done in my own way, and that's the way I like it. I'm not a fan of stereotypes so, to defy the blonde stereotype and to have some fun with it, I incorporated it into the name because you wouldn't expect a blonde to be building websites and messing with code. So, in true autonomous fashion, Blondtonomy was born.</p>
 
+<p><a href="mailto:kenzielgallagher@gmail.com? subject=hi there!">Contact Me</a></p>
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+    console.log( "ready!" );
+    $(".owl-carousel").owlCarousel({
+    	items: 1,
+    	loop: true,
+    	nav: true,
+    	autoplay: true,
+    	autoplayTimeout: 4000
+    });
+});
+</script>
 
 	</body>
 
-
-
-<p><a href="mailto:kenzielgallagher@gmail.com? subject=hi there!">Contact Me</a></p>
-
 </html>
+
