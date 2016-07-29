@@ -57,7 +57,8 @@ p, body {
 
 #service {
 	position: relative;
-	top:-50px;
+	top:-45px;
+	z-index: 999;
 }
 
 .service {
